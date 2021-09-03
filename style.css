@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 28px;
+  background-image: url(/img/spikes.png);
+  background-position: center;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img{
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  
+}
+.img img {
+  display: block;
+  animation: fadeIn 1s ease-in 0s forwards;
+}
+.text {
+  position: absolute;
+  animation: textFadeIn 2.5s ease-in 0s forwards;
+  width: 600px;
+  text-align: justify;
+}
+
+.second {
+  bottom: 100px;
+  left: 150px;
+}
+
+.third {
+  top: 100px;
+  left: 150px;
+}
+
+.fourth{
+  bottom: 30px;
+  left: 100px;
+}
+
+.fifth{
+  top: 100px;
+  left: 100px;
+}
+
+.seventh{
+  bottom: 100px;
+  left: 50px;
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
