@@ -10,18 +10,23 @@ body {
   background-position: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 90vh;
 }
-.img{
+.img {
   position: relative;
   background-color: #fff;
   border: 1px solid #aaa;
-  
 }
+
 .img img {
   display: block;
   animation: fadeIn 1s ease-in 0s forwards;
@@ -43,23 +48,59 @@ body {
   left: 150px;
 }
 
-.fourth{
+.fourth {
   bottom: 30px;
   left: 100px;
 }
 
-.fifth{
+.fifth {
   top: 100px;
   left: 100px;
 }
 
-.seventh{
+.seventh {
   bottom: 100px;
   left: 50px;
 }
 
-footer{
-  margin-top: 20px;
+.nineth {
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  color: #fff;
+}
+
+.tenth {
+  width: 400px;
+  top: 100px;
+  left: 100px;
+}
+
+.eleventh {
+  top: 40%;
+  left: 60%;
+}
+
+.twelfth{
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+.thirteenth{
+  top: 10%;
+  right: 5%;
+}
+
+.sixteenth{
+  width: 40%;
+  bottom: 10%;
+  right: 5%;
+}
+
+footer {
+  position: relative;
   text-align: center;
 }
 
